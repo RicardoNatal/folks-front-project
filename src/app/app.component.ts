@@ -1,14 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { TableModule } from 'primeng/table';
-import { Product } from './product';
-import { ProductService } from './productservice';
-import {
-  trigger,
-  state,
-  style,
-  transition,
-  animate,
-} from '@angular/animations';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
